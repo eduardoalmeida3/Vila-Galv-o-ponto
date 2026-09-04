@@ -1,0 +1,143 @@
+*{ 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+  background: #22F700;
+  color: #222;
+}
+
+header{
+  background: #0754a5;
+  color: #fff;
+  text-align: center;
+  padding: 25px 15px;
+}
+
+img{
+  width: 100px;
+  border-radius: 90px;
+  
+}
+
+ h1{
+  font-size: 22px;
+}
+
+p{
+  margin-top: 5px;
+}
+
+main{
+  width: 92%;     
+  max-width: 600;
+  margin: 20px  auto;
+}
+
+.card{
+  background: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-spacing: 12px;
+  box-shadow: 0 3px 10px #0002;
+}
+
+h2{
+  margin-bottom: 15px;
+  color: #0754a5;
+}
+
+input{
+  width: 100%;
+  padding: 13px;
+  margin-bottom: 12px;
+  border: 1 solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+}
+
+.ponto{
+  text-align: center;
+}
+
+#relogio{
+  font-size: 40px;
+  font-weight: bold;
+  margin: 15px 0 15px;
+}
+
+
+#data{
+  margin-bottom: 20px;
+  color: #666;
+}
+
+.botoes{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+button{
+  padding: 16px 10px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+.entrada{
+  background: #22c55e;
+  color: #fff;
+}
+
+.intervalo{
+  background: #fbbf24;
+  color: #fff;
+}
+
+.saida{
+  background: #ef4444;
+  color: #fff;
+}
+
+.registro{
+  border-bottom: 1px solid #ddd;
+  padding: 12px 0;
+}
+
+.registro strong{
+  display: block;
+  color: #0754a5;
+}
+
+
+
+.limpar{
+  width: 100%;
+  margin-top: 15px;
+  background: #555;
+  color: #fff;
+}
+
+footer{
+  text-align: center;
+  padding: 25px;
+}
+
+@media(max-width: 400px){
+ 
+ .botoes{
+   grid-template-columns: 1fr;
+ }
+ 
+ #relogio{
+   font-size: 32px;
+ }
+}
